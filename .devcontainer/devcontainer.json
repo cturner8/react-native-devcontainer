@@ -6,9 +6,9 @@
   "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
   "remoteEnv": {
     "ANDROID_HOME": "/usr/lib/android-sdk/",
-    "PATH": "${containerEnv:PATH}:${remoteEnv:ANDROID_HOME}tools/:${remoteEnv:ANDROID_HOME}platform-tools/",
-    "EXPO_DEVTOOLS_LISTEN_ADDRESS": "0.0.0.0",
-    "REACT_NATIVE_PACKAGER_HOSTNAME": ""
+    "PATH": "${containerEnv:PATH}:${remoteEnv:ANDROID_HOME}tools/:${remoteEnv:ANDROID_HOME}platform-tools/"
+    // "EXPO_DEVTOOLS_LISTEN_ADDRESS": "0.0.0.0",
+    // "REACT_NATIVE_PACKAGER_HOSTNAME": ""
   },
 
   // Features to add to the dev container. More info: https://containers.dev/features.

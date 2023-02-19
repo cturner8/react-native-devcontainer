@@ -17,3 +17,8 @@ A sample for working with React Native using a VS Code Dev Container
 - [VS Code - Developing inside a container](https://code.visualstudio.com/docs/devcontainers/containers)
 - [Updating PATH env variable for dev container](https://code.visualstudio.com/remote/advancedcontainers/environment-variables#_option-1-add-individual-variables)
 - [Docker - Connecting to host from inside container](https://docs.docker.com/desktop/networking/#i-want-to-connect-from-a-container-to-a-service-on-the-host)
+
+## Troubleshooting
+
+- Ensure WSA developer mode is enabled
+- If adb device is being marked as unauthorized, go to WSA settings menu, in the developer mode area, click "manage developer settings" and a popup should appear to allow the RSA fingerprint. Once allowed, the adb device should be authorized.
